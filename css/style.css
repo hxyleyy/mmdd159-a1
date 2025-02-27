@@ -238,6 +238,10 @@ html, body {
         grid-column: 1 / -1;
     }
 
+    .upcoming {
+        grid-row: span 2;
+    }
+
     .header {
         font-size: 2.5em;
     }
