@@ -226,6 +226,10 @@ html, body {
 
 /* Responsive Design */
 @media (max-width: 1200px) {
+    .upcoming {
+        grid-template-columns: 1fr 1fr;
+    }
+
     .asia {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -253,8 +257,10 @@ html, body {
     }
 
     .header {
-        height: auto;
-        padding: 30px;
+        aspect-ratio: 8/3;
+        background-size: cover;
+        background-position: center;
+        padding: 0;
         font-size: 2em;
     }
 
